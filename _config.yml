@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kaijun's Blog
-subtitle: To Be A Lean Developer!
-author: Kaijun Chen
+title: This is title in _config
+subtitle: This is subtitle in _config
+author: Author(config)
 language:
 timezone:
 
@@ -19,41 +19,41 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Kaijun的博客 | Kaijun's Blog
+SEOTitle: SEOTitle(config)
 header-img: img/home-bg.jpg
-email: Kaijun.cn@gmail.com
-description: ""
+email: yifanh@cmu.edu
+description: "discriptions here! (config)"
 keyword: ""
 
 
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
-github_username:    Kaijun
-twitter_username:   Demonbane_x
-facebook_username:  demonbane.cn
-linkedin_username:  kaijun-chen-42089354
+# weibo_username:     Demonbane
+# zhihu_username:     Demonbane
+# github_username:    Kaijun
+# twitter_username:   Demonbane_x
+# facebook_username:  demonbane.cn
+# linkedin_username:  kaijun-chen-42089354
 
 # Build settings
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true   # if you want to customize anchor. check out line:181 of `post.html`
 
 
-# Disqus settings
-disqus_username: hexo-theme-huxblog
+# # Disqus settings
+# disqus_username: hexo-theme-huxblog
 
 # Duoshuo settings
 # duoshuo_username: kaijun
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false   # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# # Baidu Analytics
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# # Google Analytics
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 # Sidebar settings
@@ -62,33 +62,33 @@ sidebar-about-description: "我要成为魔法师!"
 sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+# # Featured Tags
+# featured-tags: true                     # whether or not using Feature-Tags
+# featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
-# Friends
-friends: [
-    {
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
-]
+# # Friends
+# friends: [
+#     {
+#         title: "Kaijun's Blog",
+#         href: "http://blog.kaijun.rocks"
+#     },{
+#         title: "Hux Blog",
+#         href: "http://huangxuan.me"
+#     },{
+#         title: "Foo",
+#         href: "#"
+#     },{
+#         title: "Bar",
+#         href: "#"
+#     },{
+#         title: "Example Friends",
+#         href: "#"
+#     },{
+#         title: "It helps SEO",
+#         href: "#"
+#     }
+# ]
 
 
 #Custom Setting End
@@ -141,7 +141,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: huxblog
+theme: yifanblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
