@@ -1,7 +1,6 @@
 ---
 layout: "page"
 title: "Research"
-date: 2016-04-21 04:48:33
 description: "Hey, this is new page."
 header-img: "img/test_img1.jpg"
 comments: true
