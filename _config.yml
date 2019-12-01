@@ -20,7 +20,7 @@ permalink_defaults:
 
 # Site settings
 SEOTitle: Yifan Hou
-header-img: img/home-bg.jpg
+header-img: img/background1.jpg
 email: yifanh@cmu.edu
 description: "discriptions here! (config)"
 keyword: ""
@@ -59,7 +59,7 @@ duoshuo_share: false   # set to false if you want to use Comment without Sharing
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/contact2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # # Featured Tags
