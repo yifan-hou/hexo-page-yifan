@@ -62,10 +62,10 @@ a.links {
 </style>
 
 
-### Hybrid Servoing: Reliable Manipulation under External Contacts [(Project Page)](http://localhost:4000/hexo-theme-huxblog/project_hybrid_servoing/)
+### Hybrid Servoing: Reliable Manipulation under External Contacts [(Project Page)](../project_hybrid_servoing/)
 
 <div class="flex-container">
-  <div-left>  [![](block.jpg)](http://localhost:4000/hexo-theme-huxblog/project_hybrid_servoing/)
+  <div-left>  [![](block.jpg)](../project_hybrid_servoing/)
     <!-- <img src=block.jpg style="width:100%"/> -->
   </div-left>
   <div-right> Human manipulation dexterity benefits a lot from utilizing external contacts. However, it is still hard for a robot to safely and reliably use external contacts. A small error or disturbance in the system can cause the robot to crash, or the desired contact mode to break.
@@ -91,10 +91,10 @@ a.links {
 </div>
 
 
-### Reorienting Objects of Any Shapes between Any 3D Poses [(Project Page)](http://localhost:4000/hexo-theme-huxblog/project_reorienting/)
+### Reorienting Objects of Any Shapes between Any 3D Poses [(Project Page)](../project_reorienting/)
 
 <div class="flex-container">
-  <div-left> [![](pivoting.png)](http://localhost:4000/hexo-theme-huxblog/project_reorienting/)
+  <div-left> [![](pivoting.png)](../project_reorienting/)
   </div-left>
   <div-right> We consider the problem of reorienting a rigid object with arbitrary known shape on a table using a two-finger pinch gripper. Reorienting problem is challenging because of its non-smoothness and high dimensionality. In this work, we focus on solving reorienting using pivoting, in which we allow the grasped object to rotate between fingers. Pivoting decouples the gripper rotation from the object motion, making it possible to reorient an object under strict robot workspace constraints.
     <p class="publication">
