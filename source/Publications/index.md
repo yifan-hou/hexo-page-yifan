@@ -1,19 +1,87 @@
 ---
 layout: "page"
 title: "Publications"
-date: 2016-04-21 04:48:33
 description: "Hey, this is new page."
 header-img: "img/contact2.jpg"
 comments: true
 ---
+<style>
+p.publication {
+  margin: 0 0;
+  line-height: 1.1;
+}
 
+p.publication > ptitle {
+  color: #241663;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
 
->写写代码，做做设计，看看产品。
->世界那么大，多玩玩看看。
+p.publication > authors {
+  font-style: italic;
+  font-size: 16px;
+}
 
-9月21日上午，阳光明媚，鲜花斗艳。帕洛阿尔托苹果店里欢声笑语，人头攒动。苹果公司首席执行官蒂姆·库克先生在店长欧阳猛南陪同下，不远千米，深入到一线店面，为那里的员工带去节曰的问候和良好的祝愿。<br><br>“果粉们，你们辛苦了，我代表某果公司，祝你们身体健康，生活幸福，工作成功！”库克亲切慰问广大员工和顾客，并就iOS7、iPhone 5S和iPhone 5C的销售状况进行调研。 <br><br>“您现在每月工资有多少？肾5S拿到了吗？”在店里，库克关切地向果粉们问起这一问题。当听说果粉们排到了5S，库克满意地连连点头。接着他指出，近年来苹果事业发展取得巨大成就，特别是iPhone影响剧增，老百姓对iOS满意度逐步提高，在这个转变过程中，果粉的辛勤工作功不可没。<br><br>库克看到一个中国小朋友在排队买iPhone 5S，亲切的问：“5288元一台能承受不？”小朋友回答到：“能！”当得知这位小朋友卖了一个肾来买iPhone 5S时，库克叮嘱道：“在支持苹果的同时，也要爱护身体。”<br><br>库克与购买苹果手机的果粉们兴致勃勃地参观了苹果专卖店，和员工们拉了拉家常，并饶有兴趣地玩了四盘切西瓜游戏，与普通员工同乐。<br><br>在交谈中，库克多次关心地强调：“有了iPhone 5C，就不卖iPhone 5了。”并对顾客说：“好好休息，身体是革命的本钱嘛！”会谈始终在亲切友好的气氛中进行。<br><br>顾客们就库克的讲话达成了广泛的共识，并承认世界上只有iOS最流畅，要紧紧的团结在以库克先生为首席执行官的苹果公司集体周围，一心一意抓学习，聚精会神谋发展。<br>
-<br>帕洛阿尔托苹果专卖店当日原则通过《蒂姆·库克首席执行官在加州新苹果店的讲话纪要》，并下发各分店认真学习、研讨。
+p.publication > authorsb {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+}
 
-<p style="text-align:right;">
-    —— <a href="http://www.zhihu.com/question/19687065">李书航 － 什么是「共产中文腔调」？ </a>
+p.publication > conf {
+  font-style: normal;
+  font-size: 15px;
+}
+
+a.links {
+  margin: 0 0;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+</style>
+
+## List of publications
+
+<p class="publication">
+  <ptitle> Manipulation with Suction Cups using External Contacts </ptitle>
+  <authors> Xianyi Cheng, </authors> <authorsb> Yifan Hou </authorsb> <authors> and Matthew T. Mason </authors>
+  <conf> 2019 International Symposium on Robotics Research (ISRR) </conf>
+  <a href="https://xianyicheng.github.io/files/cheng_isrr19.pdf">Paper</a> · <a href="https://www.youtube.com/watch?v=eK77vK8wkUE&feature=emb_logo"> Video </a>
+</p> <p class="publication">
+  <ptitle> Criteria for Maintaining Desired Contacts for Quasi-Static Systems </ptitle>
+  <authorsb> Yifan Hou </authorsb> <authors> and Matthew T. Mason </authors>
+  <conf> In Proceedings of 2019 International Conference on Intelligent Robots and Systems (IROS) </conf>
+  <a href="https://www.ri.cmu.edu/publications/criteria-for-maintaining-desired-contacts-for-quasi-static-systems/">Paper</a>
+</p> <p class="publication">
+  <ptitle> Pushing revisited: Differential flatness, trajectory planning, and stabilization </ptitle>
+  <authors> Jiaji Zhou, </authors> <authorsb> Yifan Hou</authorsb> <authors> and Matthew T. Mason </authors>
+  <conf> The International Journal of Robotics Research, October 2019 </conf>
+  <a href="https://journals.sagepub.com/doi/10.1177/0278364919872532">Paper</a>
+</p> <p class="publication">
+  <ptitle> Robust Execution of Contact-Rich Motion Plans by Hybrid Force-Velocity Control </ptitle>
+  <authorsb> Yifan Hou </authorsb> <authors> and Matthew T. Mason </authors>
+  <conf> In Proceedings of 2019 IEEE International Conference on Robotics and Automation (ICRA) </conf>
+  <a href="https://www.ri.cmu.edu/publications/robust-execution-of-contact-rich-motion-plans-by-hybrid-force-velocity-control/">Paper</a> · <a href="https://www.youtube.com/watch?v=KtSNmvwOenM&feature=emb_logo"> Video </a>
+</p> <p class="publication">
+  <ptitle> Fast Planning for 3D Any-Pose-Re-orienting using Pivoting </ptitle>
+  <authorsb> Yifan Hou</authorsb> <authors>, Zhenzhong Jia and Matthew T. Mason </authors>
+  <conf> In Proceedings of 2018 IEEE International Conference on Robotics and Automation (ICRA) </conf>
+  <a href="https://www.ri.cmu.edu/publications/fast-planning-3d-pose-reorienting-using-pivoting/">Paper</a> · <a href="https://www.youtube.com/watch?v=f-3NjMDZCLw&feature=emb_logo"> Video </a>
+</p> <p class="publication">
+  <ptitle> Robust Planar Dynamic Pivoting by Regulating Inertial and Grip Forces </ptitle>
+  <authorsb> Yifan Hou </authorsb>
+  <conf> Master's Thesis, Robotics Institute, Carnegie Mellon University, May, 2017 </conf>
+  <a href="https://www.ri.cmu.edu/publications/robust-planar-dynamic-pivoting-by-regulating-inertial-and-grip-forces/">Paper</a> </p> <p class="publication">
+  <ptitle> Robust Planar Dynamic Pivoting by Regulating Inertial and Grip Forces </ptitle>
+  <authorsb> Yifan Hou</authorsb> <authors>, Zhenzhong Jia and Matthew T. Mason </authors>
+  <conf> 2016, The 12th International Workshop on the Algorithmic Foundations of Robotics (WAFR) </conf>
+  <a href="https://www.ri.cmu.edu/publications/robust-planar-dynamic-pivoting-by-regulating-inertial-and-grip-forces-2/">Paper</a> · <a href="https://www.youtube.com/watch?v=a50qqSN4Vso&feature=emb_logo"> Video </a>
+</p> <p class="publication">
+  <ptitle> Follow my step: A framework for biped robots to imitate human walking </ptitle>
+  <authorsb> Yifan Hou</authorsb> <authors> and Mingguo Zhao </authors>
+  <conf> 2014 IEEE International Conference on Robotics and Biomimetics (ROBIO) </conf>
+  <a href="https://ieeexplore.ieee.org/document/7090711">Paper</a>
 </p>
+
